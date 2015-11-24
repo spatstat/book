@@ -2,7 +2,7 @@
 
 This repository contains the source code for the companion website for the book
 
-    [Spatial Point Patterns: Methodology and Applications with R][1]
+[Spatial Point Patterns: Methodology and Applications with R][1]
 
 As such all the relevant source code is contained in the `gh-pages` branch.
 
