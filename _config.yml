@@ -1,0 +1,5 @@
+name: Spatial Point Patterns
+markdown: redcarpet
+highlighter: pygments
+
+exclude: ["README.md"]
