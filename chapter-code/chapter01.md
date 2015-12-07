@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chapter-code
 title: R code for chapter 1
 ---
 

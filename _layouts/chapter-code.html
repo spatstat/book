@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{page.title}} &middot; Spatial Point Patterns: Methodology and Applications with R.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/book/www/bootstrap.min.css" rel="stylesheet">
+    <link href="/book/www/pygments.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700'
+      rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Table of contents<b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu pull-right" role="menu">
+              {% include nav.html %}
+            </ul>
+          </li>
+        </ul>
+
+        <h3 class="muted"><a href="/book">Spatial Point Patterns: Methodology and Applications with R</a><br> <small>by Adrian Baddeley, Ege Rubak and Rolf Turner</small></h3>
+        <hr>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-3" id="nav">
+        <div class="well">
+            For general info about spatstat go to <a href="/">spatstat.org</a>.
+        </div>
+
+        <div class="well">
+            If you don't have the book yet you can use the promo code <strong>AJL01</strong> to get a <strong>20% discount</strong> at <a href="https://www.crcpress.com/Spatial-Point-Patterns-Methodology-and-Applications-with-R/Baddeley-Rubak-Turner/9781482210200">the publisher website</a>.
+        </div>
+
+        <div class="well">
+            Read about past and upcoming spatstat workshops <a href="/workshops">here</a>.
+        </div>
+
+        <h4>Contents</h4>
+          <ul class="list-unstyled" id="toc">
+            <li><a href="/book/chapter-code.html">R code for chapters</a></li>
+            <li><a href="/book/sample-chapters.html">Free sample chapters</a></li>
+            <li><a href="/book/reviews.html">Reviews of book</a></li>
+            <li><a href="/book/errata.pdf">Errata (pdf)</a></li>
+            <li><a href="/book/biographies.html">Author biographies</a></li>
+          </ul>
+
+
+        </div>
+
+        <div id="content" class="col-xs-12 col-sm-8 pull-right">
+          {{ content }}
+        </div>
+      </div>
+
+      <div class="footer">
+        <hr>
+        <p>&copy; Adrian Baddeley, Ege Rubak and Rolf Turner.<br>
+        Theme based on Hadley Wickham's <a href="http://adv-r.had.co.nz/">Advanced R website</a>.
+        Hosted by <a href='http://github.com/spatstat/book/'>GitHub</a> 
+        and powered by <a href='http://jekyllrb.com/'>Jekyll</a>.
+        </p>
+      </div>
+
+    </div> <!-- /container -->
+
+  <script src="//code.jquery.com/jquery.js"></script>
+  <script src="/book/www/bootstrap.min.js"></script>
+  <script src="/book/www/toc.js"></script>
+  </body>
+</html>
