@@ -1,31 +1,31 @@
 PART I: **BASICS**  
 
-Chapter 1: **Introduction**  
+1\. **Introduction**  
 Point patterns  
 Statistical methodology for point patterns  
 About this book
 
-Chapter 2: **Software Essentials**  
+2\. **Software Essentials**  
 Introduction to R  
-Packages for R 
-Introduction to spatstat 
-Getting started with spatstat 
+Packages for R   
+Introduction to spatstat   
+Getting started with spatstat   
 FAQ
 
-Chapter 3: **Collecting and Handling Point Pattern Data** ([download pdf](sample-chapters/chapter03.pdf))  
+3\. **Collecting and Handling Point Pattern Data** ([download pdf](sample-chapters/chapter03.pdf))  
 Surveys and experiments  
 Data handling  
-Entering point pattern data into spatstat 
+Entering point pattern data into spatstat  
 Data errors and quirks  
-Windows in spatstat 
-Pixel images in spatstat 
+Windows in spatstat  
+Pixel images in spatstat  
 Line segment patterns  
 Collections of objects  
 Interactive data entry in spatstat  
 Reading GIS file formats  
 FAQ
 
-Chapter 4: **Inspecting and Exploring Data**  
+4\. **Inspecting and Exploring Data**  
 Plotting  
 Manipulating point patterns and windows  
 Exploring images  
@@ -33,18 +33,18 @@ Using line segment patterns
 Tessellations  
 FAQ
 
-Chapter 5: **Point Process Methods**  
+5\. **Point Process Methods**  
 Motivation  
-Basic definitions 
+Basic definitions   
 Complete spatial randomness  
 Inhomogeneous Poisson process  
 A menagerie of models  
 Fundamental issues  
-Goals of analysis
+Goals of analysis  
 
 PART II: **EXPLORATORY DATA ANALYSIS**  
 
-Chapter 6: **Intensity**  
+6\. **Intensity**  
 Introduction  
 Estimating homogeneous intensity  
 Technical definition 
@@ -56,11 +56,11 @@ Hot spots, clusters, and local features
 Kernel smoothing of marks  
 FAQ
 
-Chapter 7: **Correlation** ([download pdf](sample-chapters/chapter07.pdf))  
+7\. **Correlation** ([download pdf](sample-chapters/chapter07.pdf))  
 Introduction  
 Manual methods  
 The *K*-function  
-Edge corrections for the *K*-function 
+Edge corrections for the *K*-function  
 Function objects in spatstat  
 The pair correlation function  
 Standard errors and confidence intervals  
@@ -69,13 +69,13 @@ Detecting anisotropy
 Adjusting for inhomogeneity  
 Local indicators of spatial association  
 Third- and higher-order summary statistics  
-Theory 
+Theory  
 FAQ
 
-Chapter 8: **Spacing**  
+8\. **Spacing**  
 Introduction  
 Basic methods  
-Nearest-neighbour function *G*and empty-space function *F* 
+Nearest-neighbour function *G*and empty-space function *F*  
 Confidence intervals and simulation envelopes  
 Empty-space hazard  
 *J*-function  
@@ -83,29 +83,29 @@ Inhomogeneous *F*-, *G*- and *J*-functions
 Anisotropy and the nearest-neighbour orientation  
 Empty-space distance for a spatial pattern  
 Distance from a point pattern to another spatial pattern  
-Theory for edge corrections 
-Palm distribution 
+Theory for edge corrections  
+Palm distribution  
 FAQ
 
 PART III: **STATISTICAL INFERENCE**  
 
-Chapter 9: **Poisson Models** ([download pdf](sample-chapters/chapter09.pdf))  
+9\. **Poisson Models** ([download pdf](sample-chapters/chapter09.pdf))  
 Introduction  
 Poisson point process models  
 Fitting Poisson models in spatstat  
 Statistical inference for Poisson models  
 Alternative fitting methods  
 More flexible models  
-Theory 
-Coarse quadrature approximation 
-Fine pixel approximation 
-Conditional logistic regression 
+Theory  
+Coarse quadrature approximation  
+Fine pixel approximation  
+Conditional logistic regression  
 Approximate Bayesian inference  
 Non-loglinear models  
 Local likelihood  
 FAQ
 
-Chapter 10: **Hypothesis Tests and Simulation Envelopes**  
+10\. **Hypothesis Tests and Simulation Envelopes**  
 Introduction  
 Concepts and terminology  
 Testing for a covariate effect in a parametric model  
@@ -119,7 +119,7 @@ Dao-Genton test and envelopes
 Power of tests based on summary functions  
 FAQ
 
-Chapter 11: **Model Validation**  
+11\. **Model Validation**  
 Overview of validation techniques  
 Relative intensity  
 Residuals for Poisson processes  
@@ -127,19 +127,19 @@ Partial residual plots
 Added variable plots  
 Validating the independence assumption  
 Leverage and influence  
-Theory for leverage and influence 
+Theory for leverage and influence  
 FAQ
 
-Chapter 12: **Cluster and Cox Models**   
+12\. **Cluster and Cox Models**   
 Introduction  
 Cox processes  
 Cluster processes  
 Fitting Cox and cluster models to data  
 Locally fitted models  
-Theory* 
+Theory*  
 *FAQ
 
-Chapter 13: **Gibbs Models**  
+13\. **Gibbs Models**  
 Introduction  
 Conditional intensity  
 Key concepts  
@@ -151,12 +151,12 @@ Hybrids of Gibbs models
 Simulation  
 Goodness-of-fit and validation for fitted Gibbs models  
 Locally fitted models  
-Theory: Gibbs processes 
-Theory: Fitting Gibbs models 
+Theory: Gibbs processes  
+Theory: Fitting Gibbs models  
 Determinantal point processes  
 FAQ
 
-Chapter 14: **Patterns of Several Types of Points**  
+14\. **Patterns of Several Types of Points**  
 Introduction  
 Methodological issues  
 Handling multitype point pattern data  
@@ -168,19 +168,19 @@ Multitype Gibbs models
 Hierarchical interactions  
 Multitype Cox and cluster processes  
 Other multitype processes  
-Theory 
+Theory  
 FAQ
 
 PART IV: **ADDITIONAL STRUCTURE**  
 
-Chapter 15: **Higher-Dimensional Spaces and Marks**  
+15\. **Higher-Dimensional Spaces and Marks**  
 Introduction  
 Point patterns with numerical or multidimensional marks  
 Three-dimensional point patterns  
 Point patterns with any kinds of marks and coordinates  
 FAQ
 
-Chapter 16: **Replicated Point Patterns and Designed Experiments**  
+16\. **Replicated Point Patterns and Designed Experiments**  
 Introduction  
 Methodology  
 Lists of objects  
@@ -192,10 +192,10 @@ Analysing summary functions from replicated patterns
 Poisson models  
 Gibbs models  
 Model validation  
-Theory 
+Theory  
 FAQ
 
-Chapter 17: **Point Patterns on a Linear Network**  
+17\. **Point Patterns on a Linear Network**  
 Introduction  
 Network geometry  
 Data handling  
