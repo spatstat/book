@@ -10,12 +10,12 @@ Most of the commands can simply be copy and pasted into an R session where spats
 However, several chunks of code require that one or more auxiliary R scripts have been loaded first.
 To be able to run all chapter scripts from the current working directory it must contain a subdirectory called 'R' containing the following files:
 
-- [startup.R](R/startup.html) (requried by all chapters)
-- [fijiquakes.R](R/fijiquakes.html) (requried by chapter 6)
-- [rSpecialMC.R](R/rSpecialMC.html) (requried by chapter 12)
-- [rSpecialNS.R](R/rSpecialNS.html) (requried by chapter 12)
-- [short.output](R/short.output.html) (requried by chapter 16-17)
-- [shortestpath.R](R/shortestpath.html) (requried by chapter 17)
+- [startup.R](R/startup.html) (required by all chapters)
+- [fijiquakes.R](R/fijiquakes.html) (required by chapter 6)
+- [rSpecialMC.R](R/rSpecialMC.html) (required by chapter 12)
+- [rSpecialNS.R](R/rSpecialNS.html) (required by chapter 12)
+- [short.output](R/short.output.html) (required by chapter 16-17)
+- [shortestpath.R](R/shortestpath.html) (required by chapter 17)
 
 The code for each chapter is here: 
 
