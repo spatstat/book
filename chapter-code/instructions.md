@@ -6,7 +6,7 @@ title: Code instructions
 ## Instructions for chapter code usage
 
 For each chapter a script is provided which generates all results and figures of that chapter.
-Most of the commands can simply be copy and pasted into an R session where spatstat is loaded.
+Most of the commands can simply be copied-and-pasted into an R session where spatstat is loaded.
 However, several chunks of code require that one or more auxiliary R scripts have been loaded first.
 To be able to run all chapter scripts from the current working directory it must contain a subdirectory called 'R' containing the following files:
 
@@ -15,8 +15,16 @@ To be able to run all chapter scripts from the current working directory it must
 - [fijiquakes.R](R/fijiquakes.html) (required by chapter 6)
 - [rSpecialMC.R](R/rSpecialMC.html) (required by chapter 12)
 - [rSpecialNS.R](R/rSpecialNS.html) (required by chapter 12)
-- [short.output](R/short.output.html) (required by chapter 16-17)
+- [short.output](R/short.output.html) (required by chapters 16 and 17)
 - [shortestpath.R](R/shortestpath.html) (required by chapter 17)
+
+You will also need a subdirectory called 'data' containing the following files:
+
+- [subWinElev.dput](data/subWinElev.dput) (required by chapter 4)
+- [potatoes.rda](data/potatoes.rda) (required by chapter 5)
+- [simpletree.rda](data/simpletree.rda) (required by chapter 17)
+- [dendriteLam10.rda](data/dendriteLam10.rda) (required by chapter 17)
+- [dendriteSplitLam10.rda](data/dendriteSplitLam10.rda) (required by chapter 17)
 
 The code for each chapter is here: 
 

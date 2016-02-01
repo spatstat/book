@@ -1,0 +1,9 @@
+structure(list(type = "polygonal", xrange = c(269.933810247127, 
+438.928517936324), yrange = c(289.093052522322, 471.876101269137
+), bdry = list(structure(list(x = c(289.584357689563, 438.928518010337, 
+407.487642057131, 269.933810173113), y = c(289.093052522322, 
+298.920098179421, 471.876101269137, 418.810054793913)), .Names = c("x", 
+"y"))), units = structure(list(singular = "unit", plural = "units", 
+    multiplier = 1), .Names = c("singular", "plural", "multiplier"
+), class = "units")), .Names = c("type", "xrange", "yrange", 
+"bdry", "units"), class = "owin")
