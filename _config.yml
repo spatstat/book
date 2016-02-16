@@ -1,5 +1,5 @@
 name: Spatial Point Patterns
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 exclude: ["README.md"]
