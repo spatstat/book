@@ -1,6 +1,13 @@
 \documentclass[12pt,a4paper]{article}
+
 \usepackage{anysize}
 \marginsize{2cm}{2cm}{2cm}{2cm}
+\usepackage{amsfonts,amssymb,bm}
+
+\newcommand{\boldmaths}[1]{{\ensuremath\boldsymbol{#1}}}
+\newcommand{\bx}{\boldmaths x}
+\newcommand{\bZ}{\boldmaths Z}
+
 \begin{document}
 \thispagestyle{empty}
 \begin{center}
@@ -24,6 +31,15 @@
 \item Page 308, Figure 9.3 caption: in the caption for the right panel,
 the name \texttt{code} should be \texttt{fit}.
 \item Page 535: \texttt{temper} should be \texttt{rtemper}.
+\item Page 544: A term has been omitted in equations (13.55) and (13.57).
+The right hand side of (13.55) should include the additional term
+\[
+   + \sum_{i=1}^n \left[ \bZ(x_i \mid \bx \cup \{u\}) - \bZ(x_i \mid \bx) \right]
+\]
+and the right hand side of (13.57) should include
+\[
+  + \sum_{j=1}^n \left[ \bZ(x_j \mid \bx) - \bZ(x_j \mid \bx \setminus \{x_i\}) \right].
+\]
 \item Page 786, reference [643]: volume number is \textbf{62}.
 \end{enumerate}
 
