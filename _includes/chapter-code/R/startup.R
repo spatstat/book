@@ -4,6 +4,7 @@
 ## Copyright (C) 2015 Adrian Baddeley, Ege Rubak and Rolf Turner
 
 require(spatstat)
+require(spatstat.utils)
 require(english)
 
 ## Adding all 'require' commands here
