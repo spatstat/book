@@ -643,7 +643,7 @@ G[bei[42]] <- 0
 oo <- try(ppm(bei ~ log(G)), silent=TRUE)
 ## reformat error message to respect text width
 oo <- gsub("\n", "", oo)
-spatstat:::splat(oo)
+splat(oo)
 ##oo <- strsplit(oo, " ")
 ##do.call(cat, append(oo, list(fill=TRUE)))
 
@@ -1046,7 +1046,7 @@ bigfit <- ppm(swedishpines ~ polynom(x,y,3))
 ###################################################
 ### code chunk number 145: 09inferpois.Rnw:3028-3029
 ###################################################
-spatstat:::splat(pasteFormula(formula(bigfit)))
+splat(pasteFormula(formula(bigfit)))
 
 
 ###################################################

@@ -52,7 +52,7 @@ short.output <- function(e, ..., excised=NULL, maxwidth=NULL){
 skipblanklines <- function(e) {
   out <- capture.output(eval(e))
   for(i in seq_along(out))
-    if(nchar(out[i]) > 0) spatstat:::splat(out[i])
+    if(nchar(out[i]) > 0) splat(out[i])
 }
 
 ## eg:
