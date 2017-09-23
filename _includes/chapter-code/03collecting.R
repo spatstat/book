@@ -294,14 +294,14 @@ par(mfrow=c(1,1))
 ### code chunk number 41: 03collecting.Rnw:1591-1593
 ###################################################
 fn  <- system.file("rawdata", "vesicles", "vesiclesimage.tif", 
-                   package="spatstat")
+                   package="spatstat.data")
 
 
 ###################################################
 ### code chunk number 42: 03collecting.Rnw:1601-1603 (eval = FALSE)
 ###################################################
 ## fn  <- system.file("rawdata/vesicles/vesiclesimage.tif", 
-##                    package="spatstat")
+##                    package="spatstat.data")
 
 
 ###################################################
@@ -352,7 +352,7 @@ plot(vimh, col = vcolmap, main = "", ribbon=FALSE)
 ###################################################
 require(jpeg)
 fn  <- system.file("rawdata", "sandholes", "sandholes.jpg",
-                   package="spatstat")
+                   package="spatstat.data")
 arr <- readJPEG(fn)
 
 
@@ -406,7 +406,7 @@ plot(sand, main = "", ribbon=FALSE)
 ### code chunk number 57: 03collecting.Rnw:1754-1759
 ###################################################
 fn  <- system.file("rawdata", "gorillas", "vegetation.asc",
-                   package="spatstat")
+                   package="spatstat.data")
 pixvals <- scan(fn, skip=6)
 pixvals[pixvals == -9999] <- NA
 mat <- matrix(pixvals, nrow=149, ncol=181, byrow=TRUE)
