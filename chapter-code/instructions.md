@@ -15,7 +15,7 @@ To be able to run all chapter scripts from the current working directory it must
 - [fijiquakes.R](R/fijiquakes.html) (required by chapter 6)
 - [rSpecialMC.R](R/rSpecialMC.html) (required by chapter 12)
 - [rSpecialNS.R](R/rSpecialNS.html) (required by chapter 12)
-- [short.output](R/short.output.html) (required by chapters 16 and 17)
+- [short.output.R](R/short.output.html) (required by chapters 16 and 17)
 - [shortestpath.R](R/shortestpath.html) (required by chapter 17)
 
 You will also need a subdirectory called 'data' containing the following files:
