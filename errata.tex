@@ -2,7 +2,7 @@
 
 \usepackage{anysize}
 \marginsize{2cm}{2cm}{2cm}{2cm}
-\usepackage{amsfonts,amssymb,bm}
+\usepackage{graphicx,amsfonts,amssymb,bm}
 
 \newcommand{\boldmaths}[1]{{\ensuremath\boldsymbol{#1}}}
 \newcommand{\bx}{\boldmaths x}
@@ -69,6 +69,14 @@ should be column vectors.
 \item Page 521, line 7: the fraction of contested area is $-C(u, \bx)$,
 not $C(u,\bx)$.
 \item Page 535: \texttt{temper} should be \texttt{rtemper}.
+  \pagebreak
+\item Page 542: Figure 13.33 is incorrect; the correct figure is shown
+  below. The figure in the book was produced by \texttt{parres(copfit, dlin)}
+  (as stated correctly in the text)
+  but this should have been \texttt{parres(copfit, "dlin")}.
+
+  \centerline{\includegraphics*[width=0.4\textwidth]{fig1333}}
+  
 \item Page 544: A term has been omitted in equations (13.55) and (13.57).
 The right hand side of (13.55) should include the additional term
 \[
