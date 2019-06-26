@@ -7,6 +7,7 @@
 \newcommand{\boldmaths}[1]{{\ensuremath\boldsymbol{#1}}}
 \newcommand{\bx}{\boldmaths x}
 \newcommand{\bZ}{\boldmaths Z}
+\newcommand{\btheta}{\boldmaths\theta}
 
 \begin{document}
 \thispagestyle{empty}
@@ -60,11 +61,13 @@ the name \texttt{code} should be \texttt{fit}.
   $\alpha_{\mbox{\scriptsize \texttt{TRUE}}} = 2.0013$,
   $\gamma_{\mbox{\scriptsize \texttt{FALSE}}} = 0$ and
   $\gamma_{\mbox{\scriptsize \texttt{TRUE}}} = 0.1674$.
-\item Page 344, lines 6--7: $\boldmaths\theta$ and $\bZ(u)$ 
+\item Page 344, lines 6--7: $\btheta$ and $\bZ(u)$ 
 should be column vectors.
+\item Page 374, in equation (10.3), ${\boldmaths I}_\btheta$
+  should be ${\boldmaths I}_{\btheta_0}$.
 \item Page 376, third displayed equation should read
   \[
-       Z_2 = \sqrt{\frac{12}{n}} (\sum_i u_i - \frac n 2).
+       Z_2 = \sqrt{\frac{12}{n}} \left(\sum_i u_i - \frac n 2\right).
   \]
 \item Page 521, line 7: the fraction of contested area is $-C(u, \bx)$,
 not $C(u,\bx)$.
