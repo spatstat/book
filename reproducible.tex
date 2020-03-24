@@ -1,0 +1,78 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{anysize}
+\marginsize{2cm}{2cm}{2cm}{2cm}
+\usepackage{graphicx,amsfonts,amssymb,bm}
+
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+  \begin{Large}
+    How to reproduce results from
+  \end{Large}
+
+  \begin{large}
+    \emph{Spatial Point Patterns: Methodology and Applications with R}\\
+    Baddeley, Rubak and Turner
+  \end{large}
+\end{center}
+
+Readers who run the example code in the book
+will find that some of their results are
+now different from the results shown in the book.
+
+This is caused by recent changes to the \texttt{spatstat} package
+and the \textsf{R} system.
+
+The authors try to ensure, wherever possible, that statements in the book
+remain true, and \textsf{R} code in the book remains valid, 
+using the current version of \texttt{spatstat}.
+
+However, a few changes are unavoidable. Here is a list of actions that
+the user can take to ensure that the results are reproducible.
+
+\begin{enumerate}
+\item The \texttt{spatstat} package has now been split into several
+  sub-packages. In order to execute all the code in the book,
+  you may need to type
+\begin{verbatim}
+    library(spatstat)
+    library(spatstat.utils)
+    library(spatstat.gui)
+\end{verbatim}
+\item Data files that were in \texttt{spatstat}
+  are now in the sub-package \texttt{spatstat.data}.
+  If you use the command \texttt{system.file} to extract data files,
+  use the argument \texttt{package="spatstat.data"}.
+\item 
+  Use the following commands to ensure that simulations
+  (and simulation-based calculations and figures) in the book
+  are exactly reproducible using the chosen values of the random seed.
+  They select the older, slower
+  simulation algorithms that were in force when the book was written.
+\begin{verbatim}
+    RNGkind(sample.kind="Rounding")
+    spatstat.options(fastthin=FALSE)
+    spatstat.options(fastpois=FALSE)
+\end{verbatim}
+  These should only be used to reproduce the output in the book.
+  Please be warned that \texttt{RNGkind(sample.kind="Rounding")} is undesirable
+  for new work, because it produces poor samples in large populations.
+\item
+  The function \texttt{lengths.psp} has been renamed \verb!lengths_psp!
+  to avoid a conflict with the new generic function \texttt{lengths}
+  in \textsf{R}.
+\item
+  The new package \texttt{local} for local likelihood, mentioned
+  in Sections~9.13, 12.5 and 13.11, has been renamed \texttt{spatstat.local}.
+  It is available on CRAN.
+\item
+  Check the list of errata on \texttt{book.spatstat.org}.
+\end{enumerate}
+
+\vspace*{\fill}
+
+
+\hspace*{\fill} \today
+
+\end{document}
