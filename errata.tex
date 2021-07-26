@@ -8,6 +8,7 @@
 \newcommand{\bx}{\boldmaths x}
 \newcommand{\bZ}{\boldmaths Z}
 \newcommand{\btheta}{\boldmaths\theta}
+\newcommand{\suminej}{\sum_{i=1}^n \sum_{\stackrel{j=1}{\!\!j \neq i}}^n}
 
 \begin{document}
 \thispagestyle{empty}
@@ -59,6 +60,16 @@
  website \texttt{statscan.org} should read \texttt{satscan.org}
 \item Page 210. Reference to [83] should be Bartlett (1964)
   as listed below.
+\item Page 229, equation (7.30), the right hand side should
+  be multiplied by $|W|/(n(n-1))$, so that the equation reads
+  \[
+  \widehat g(r) = \frac {|W|}{2\pi n(n-1)}
+  \suminej \frac{
+    \kappa_h(r - d_{ij})
+  }{
+    d_{ij}
+  } e_{ij}(r)
+  \]
 \item Page 261, line 2 of text: 
 \texttt{tile.index} should be \texttt{tileindex}.
 \item Page 308, Figure 9.3 caption: in the caption for the right panel,
@@ -80,7 +91,6 @@ should be column vectors.
 \item Page 521, line 7: the fraction of contested area is $-C(u, \bx)$,
 not $C(u,\bx)$.
 \item Page 535: \texttt{temper} should be \texttt{rtemper}.
-  \pagebreak
 \item Page 542: Figure 13.33 is incorrect; the correct figure is shown
   below. The figure in the book was produced by \texttt{parres(copfit, dlin)}
   (as stated correctly in the text)
@@ -114,8 +124,8 @@ The spectral analysis of two-dimensional point processes.
 
 \subsubsection*{Acknowledgements}
 
-We thank \textbf{Suman Rakshit} and \textbf{Tilman Davies}
-for alerting us to some of these errors.\\
+We thank \textbf{Tilman Davies}, \textbf{Suman Rakshit} and
+\textbf{Dominic Schuhmacher} for alerting us to some of these errors.\\
 
 
 \vspace*{\fill}
