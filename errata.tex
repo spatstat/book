@@ -84,10 +84,18 @@ the name \texttt{code} should be \texttt{fit}.
 should be column vectors.
 \item Page 374, in equation (10.3), ${\boldmaths I}_\btheta$
   should be ${\boldmaths I}_{\btheta_0}$.
+\item Page 365: Code for local likelihood is in a separate package
+  \texttt{spatstat.local}.
 \item Page 376, third displayed equation should read
   \[
        Z_2 = \sqrt{\frac{12}{n}} \left(\sum_i u_i - \frac n 2\right).
   \]
+\item Page 480: Code for locally fitted Cox and cluster process models
+  is provided in a separate package \texttt{spatstat.local}.
+  The relevant functions are \texttt{loccit} and \texttt{locmincon}
+  instead of \texttt{lockppm}.
+\item Page 485, line 8: ``stationary point'' should be
+  ``stationary point process''
 \item Page 521, line 7: the fraction of contested area is $-C(u, \bx)$,
 not $C(u,\bx)$.
 \item Page 535: \texttt{temper} should be \texttt{rtemper}.
@@ -107,6 +115,8 @@ and the right hand side of (13.57) should include
 \[
   + \sum_{j=1}^n \left[ \bZ(x_j \mid \bx) - \bZ(x_j \mid \bx \setminus \{x_i\}) \right].
 \]
+\item Page 546: Code for local likelihood is in a separate package
+  \texttt{spatstat.local}.
 \item Page 578, line 5: \texttt{plot(ProbU)} should be \texttt{plot(ProbD)}.
 \item Page 786, reference [643]: volume number is \textbf{62}.
 \item
