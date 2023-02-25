@@ -19,8 +19,9 @@
 
   \begin{large}
     \emph{Spatial Point Patterns: Methodology and Applications with R}\\
-    Baddeley, Rubak and Turner
+    Baddeley, Rubak and Turner (2015)\\ 
   \end{large}
+  Last updated \today
 \end{center}
 
 \begin{enumerate}
@@ -98,6 +99,24 @@ should be column vectors.
   ``stationary point process''
 \item Page 521, line 7: the fraction of contested area is $-C(u, \bx)$,
 not $C(u,\bx)$.
+\item Page 522, equation (13.36): the first product symbol should be deleted;
+  the correct equation is
+  \begin{large}
+  \[
+    \lambda(u \mid \bx) =
+    \beta
+    \gamma^{\mbox{\scriptsize min} (s, t(u,r,\bx))}
+    \prod_{i=1}^{n(\bx)}
+      \gamma^{
+        \mbox{\scriptsize min} (s, t(x_i,r, \bx \cup \{u\}))
+        - 
+        \mbox{\scriptsize min} (s, t(x_i,r, \bx))
+      }.
+    \]
+  \end{large}
+  In the text below this equation, the reference to the ``first product''
+  and ``second product'' in (13.36) should be
+  ``the terms outside the product'' and ``the product'', respectively.
 \item Page 535: \texttt{temper} should be \texttt{rtemper}.
 \item Page 542: Figure 13.33 is incorrect; the correct figure is shown
   below. The figure in the book was produced by \texttt{parres(copfit, dlin)}
@@ -134,13 +153,9 @@ The spectral analysis of two-dimensional point processes.
 
 \subsubsection*{Acknowledgements}
 
-We thank \textbf{Tilman Davies}, \textbf{Suman Rakshit} and
+We thank \textbf{Tilman Davies}, \textbf{Julia Jansson},
+\textbf{Suman Rakshit} and
 \textbf{Dominic Schuhmacher} for alerting us to some of these errors.\\
 
-
-\vspace*{\fill}
-
-
-\hspace*{\fill} \today
 
 \end{document}
