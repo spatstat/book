@@ -55,6 +55,15 @@
     \emph{Statistics and Computing} \textbf{3}, 135--146.
   \end{itemize}
 \end{small}
+\item Page 176. Line 12 from bottom should read
+\begin{verbatim}
+   > dens.ter <- dens.map / sqrt(1 + grad^2)
+\end{verbatim}
+  and line 3 from bottom should read
+\begin{verbatim}
+   > dens.ter2 <- density(bei, weights = 1/sqrt(1 + grad[bei]^2))
+\end{verbatim}
+  
 \item Page 189. Reference to [83] should be Bartlett (1964)
   as listed below.
 \item Page 191, line 14: 
@@ -154,7 +163,7 @@ The spectral analysis of two-dimensional point processes.
 \subsubsection*{Acknowledgements}
 
 We thank \textbf{Tilman Davies}, \textbf{Julia Jansson},
-\textbf{Suman Rakshit} and
+\textbf{Hugo Lachuer}, \textbf{Suman Rakshit} and
 \textbf{Dominic Schuhmacher} for alerting us to some of these errors.\\
 
 
